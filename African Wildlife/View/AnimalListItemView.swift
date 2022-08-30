@@ -26,7 +26,7 @@ struct AnimalListItemView: View {
                 Text(animal.name)
                     .fontWeight(.heavy)
                     .foregroundColor(.accentColor)
-                
+                    .font(.title2)
                 Text(animal.headline)
                     .font(.footnote)
                     .multilineTextAlignment(.leading)
@@ -40,7 +40,7 @@ struct AnimalListItemView: View {
 }
 
 struct AnimalListItemView_Previews: PreviewProvider {
-    static let animals: [Animal] = Bundle.main.decode("animal.json")
+    static let animals: [Animal] = Bundle.main.decode("animals.json")
     
     static var previews: some View {
         AnimalListItemView(animal: animals[1])
