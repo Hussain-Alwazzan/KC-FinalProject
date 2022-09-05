@@ -28,7 +28,7 @@ struct ContentView: View {
                     
                     
                     
-                } //:
+                } //:FOREACH
             } //: LIST
             .navigationBarTitle("Africa")
         } //: NAVIGATION
