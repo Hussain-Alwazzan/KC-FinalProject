@@ -8,5 +8,14 @@
 	<string>launch-screen-color</string>
 	<key>Image Name</key>
 	<string>launch-screen-image</string>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>launh-screen-color</string>
+		<key>UIImageName</key>
+		<string>launch-screen-image</string>
+		<key>UILaunchScreen</key>
+		<dict/>
+	</dict>
 </dict>
 </plist>

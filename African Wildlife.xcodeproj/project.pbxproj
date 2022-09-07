@@ -16,6 +16,7 @@
 		7227343E28BF9F2900AF0660 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7227343D28BF9F2900AF0660 /* VideoListItemView.swift */; };
 		7227344028C11DE900AF0660 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7227343F28C11DE700AF0660 /* VideoPlayerView.swift */; };
 		7227344328C11F1700AF0660 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7227344228C11F1700AF0660 /* VideoPlayerHelper.swift */; };
+		722757C728C8E9640054714F /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722757C628C8E9640054714F /* AnimalGridItemView.swift */; };
 		722A2DA128B3296500009D2A /* African_WildlifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A2DA028B3296500009D2A /* African_WildlifeApp.swift */; };
 		722A2DA328B3296500009D2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722A2DA228B3296500009D2A /* ContentView.swift */; };
 		722A2DA528B3296800009D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 722A2DA428B3296800009D2A /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 		7227343D28BF9F2900AF0660 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		7227343F28C11DE700AF0660 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		7227344228C11F1700AF0660 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		722757C628C8E9640054714F /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		722A2D9D28B3296500009D2A /* African Wildlife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "African Wildlife.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		722A2DA028B3296500009D2A /* African_WildlifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = African_WildlifeApp.swift; sourceTree = "<group>"; };
 		722A2DA228B3296500009D2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 				7227343D28BF9F2900AF0660 /* VideoListItemView.swift */,
 				7227343F28C11DE700AF0660 /* VideoPlayerView.swift */,
 				7299249A28C635230046280F /* MapAnnotationView.swift */,
+				722757C628C8E9640054714F /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				722A2DB628B32C4A00009D2A /* MainView.swift in Sources */,
 				7227343628BE29AD00AF0660 /* InsetFactView.swift in Sources */,
 				72C0187B28BC81E90055A75C /* CoverImageView.swift in Sources */,
+				722757C728C8E9640054714F /* AnimalGridItemView.swift in Sources */,
 				7253B7F428BC860D001147E7 /* CoverImageModel.swift in Sources */,
 				72CE259928BD00E300834939 /* AnimalDetailView.swift in Sources */,
 				7253B7FB28BCE122001147E7 /* AnimalModel.swift in Sources */,
@@ -471,7 +475,6 @@
 				INFOPLIST_FILE = "African-Wildlife-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
@@ -502,7 +505,6 @@
 				INFOPLIST_FILE = "African-Wildlife-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
